@@ -1,0 +1,125 @@
+/* Import classic serif font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    background:#f7f7f7;
+    font-family: "Times New Roman", Times, serif;
+    color:#111;
+}
+
+/* Header */
+header{
+    text-align:center;
+    padding:25px 0 10px 0;
+    background:white;
+    border-bottom:1px solid #ddd;
+}
+
+header h1{
+    font-family: 'Playfair Display', serif;
+    font-size:48px;
+    font-weight:700;
+    margin:0;
+    letter-spacing:1px;
+}
+
+header p{
+    font-size:13px;
+    color:#666;
+    margin-top:5px;
+}
+
+/* Navigation */
+nav{
+    background:white;
+    border-bottom:1px solid #ddd;
+    text-align:center;
+    padding:10px 0;
+}
+
+nav a{
+    text-decoration:none;
+    color:#000;
+    margin:0 14px;
+    font-size:14px;
+    font-weight:500;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+
+/* Layout */
+.container{
+    width:85%;
+    margin:30px auto;
+    display:flex;
+    gap:40px;
+}
+
+/* Main Content */
+.main{
+    width:65%;
+}
+
+.main img{
+    width:100%;
+    height:auto;
+}
+
+.main h2{
+    font-family:'Playfair Display', serif;
+    font-size:38px;
+    margin-top:20px;
+}
+
+.main p{
+    font-size:18px;
+    line-height:1.6;
+}
+
+/* Sidebar */
+.sidebar{
+    width:35%;
+}
+
+.sidebar-section{
+    margin-bottom:30px;
+    padding-bottom:15px;
+    border-bottom:1px solid #ddd;
+}
+
+.sidebar-section h3{
+    font-family:'Playfair Display', serif;
+    font-size:20px;
+    margin-bottom:10px;
+}
+
+.sidebar-section p{
+    font-size:15px;
+    margin:8px 0;
+}
+
+/* Breaking News */
+.breaking{
+    background:#c40000;
+    color:white;
+    padding:5px 12px;
+    font-size:12px;
+    display:inline-block;
+    margin-bottom:15px;
+    letter-spacing:1px;
+}
+
+/* Footer */
+footer{
+    margin-top:40px;
+    padding:20px;
+    text-align:center;
+    background:white;
+    border-top:1px solid #ddd;
+    font-size:13px;
+    color:#666;
+}
